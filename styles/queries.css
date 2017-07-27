@@ -34,10 +34,10 @@
 	.steps-box:last-child {
 		margin-top: 10px;
 	}
-	.works-steps {
+	.works-step {
 		margin-bottom: 40px;
 	}
-	.works-steps:last-of-type {
+	.works-step:last-of-type {
 		margin-bottom: 60px;
 	}
 
@@ -87,6 +87,7 @@
 
 	.col {
 		width: 100%;
+		margin: 0 0 4% 0;
 	}
 	.main-nav {
 		display: none;
@@ -105,23 +106,28 @@
 		margin-left: 0%;
 	}
 
-	.works-steps {
+
+	.steps-box:first-child {
+		text-align: center;
+	}
+
+	.app-screen {
+		width: 40%;
+	}
+
+
+	.works-step {
 		margin-bottom: 20px;
 	}
-	.works-steps:last-of-type {
+	.works-step:last-of-type {
 		margin-bottom: 20px;
 	}
-	.works-steps div {
+	.works-step div {
 		height: 40px;
 		width: 40px;
 		margin-right: 15px;
 		padding: 4px;
 	}
-
-
-
-
-
 
 }
 
@@ -129,5 +135,11 @@
 
 /*small phones from 0 to 480px*/
 @media only screen (max-width: 480px) {
+	section {
+		padding: 25px 0;
+	}
+	contact-form {
+		width: 100%; 
+	}
 
 }
