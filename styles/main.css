@@ -230,6 +230,14 @@ header {
 	margin-top: 20px;
 }
 
+.logo-black {
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+}
+
 /*========================*/
 /*NAVIGATION*/
 /*========================*/
@@ -271,10 +279,23 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: grey;
+	background-color: rgba(255,255,255,0.98);
+	box-shadow: 0 2px 20x #efefef;
 }
-
-
+.main-nav {
+	margin-top: 15px;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	padding: 15px 0;
+	color: #555;
+}
+.sticky .logo {
+	display: none;
+}
+.sticky .logo-black {
+	display: block;
+}
 
 
 
