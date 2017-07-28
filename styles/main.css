@@ -283,7 +283,7 @@ header {
 	box-shadow: 0 2px 20x #efefef;
 	z-index: 9999;
 }
-.main-nav {
+.sticky .main-nav {
 	margin-top: 18px;
 }
 .sticky .main-nav li a:link,
@@ -648,7 +648,20 @@ footer p {
 }
 
 
+/*========================*/
+/*ANIMATIONS*/
+/*========================*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+	opacity: 0;
+}
 
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated  {
+	opacity: 1;
+}
 
 
 
