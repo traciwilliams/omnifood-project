@@ -17,4 +17,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 
-![Alt text](readme-screenshots.jpg?raw=true "Omnifood Project")
+![Alt text](images/readme-screenshots.jpg?raw=true "Omnifood Project")
