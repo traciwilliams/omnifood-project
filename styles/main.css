@@ -572,6 +572,7 @@ footer {
 	background-color: #333; 
 	padding: 50px;
 	font-size: 80%;
+	width: 100%;
 }
 
 .footer-nav {
@@ -655,6 +656,13 @@ footer p {
 .js--wp-2,
 .js--wp-3 {
 	opacity: 0;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+.js--wp-4 {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
 }
 
 .js--wp-1.animated,
